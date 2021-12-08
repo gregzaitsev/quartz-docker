@@ -7,7 +7,7 @@
   "protocolId": "qtz",
   "properties": {
     "ss58Format": 255,
-    "tokenDecimals": 15,
+    "tokenDecimals": 18,
     "tokenSymbol": "QTZ"
   },
   "relay_chain": "ksmcc3",

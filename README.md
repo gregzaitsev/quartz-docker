@@ -37,3 +37,17 @@ Note: New blocks will appear after both Quartz and Kusama nodes fully sync. This
 ## Step 3: Use
 
 The node can be used locally on this URL: ws://127.0.0.1:9844
+
+## How to restart
+
+1. Cleanup 
+```
+docker stop quartz_node
+docker system prune
+sudo rm -rf chain-data
+```
+
+2. Restart
+```
+docker-compose up -d --build
+```
