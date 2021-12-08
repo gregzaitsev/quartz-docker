@@ -1,0 +1,21 @@
+version: "3.5"
+
+services:
+  quartz_node:
+    container_name: quartz_node
+    env_file:
+      - ./.env
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        - GITHUB_ACCESS_TOKEN=${GITHUB_ACCESS_TOKEN}
+        - UNIQUE_BRANCH=${UNIQUE_BRANCH}
+        - GITHUB_USERNAME=${GITHUB_USERNAME}
+    volumes:
+      - ./chain-data:/chain-data
+    ports:
+      - 9833:9833
+      - 9844:9844
+    restart: unless-stopped
+
