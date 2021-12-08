@@ -32,7 +32,7 @@ Open this URL in the browser to check that the node is running:
 
 https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9844#/explorer
 
-Note: New blocks will appear after the node fully syncs
+Note: New blocks will appear after both Quartz and Kusama nodes fully sync. This may take up to a few hours.
 
 ## Step 3: Use
 
