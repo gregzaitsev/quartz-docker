@@ -1,7 +1,7 @@
 /usr/local/bin/unique-collator \
          --name quartz-stage\
          --collator \
-         --base-path ./quartz-data \
+         --base-path /chain-data \
          --chain ./quartz-v0.9.11.json \
          --port 30333 \
          --rpc-port 9833 \
