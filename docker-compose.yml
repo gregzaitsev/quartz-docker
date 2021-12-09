@@ -17,5 +17,7 @@ services:
     ports:
       - 9833:9833
       - 9844:9844
+      - 40333:40333
+      - 30333:30333
     restart: unless-stopped
 

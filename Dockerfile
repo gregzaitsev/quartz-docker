@@ -50,6 +50,9 @@ RUN ls -la /usr/local/bin
 
 EXPOSE 9844
 EXPOSE 9833
+EXPOSE 40333
+EXPOSE 30333
+
 VOLUME ["/chain-data"]
 
 # Copy and run start script
