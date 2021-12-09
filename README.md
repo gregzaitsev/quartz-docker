@@ -9,7 +9,7 @@ This is a tool for building and running the local Quartz node from the specified
 - 8GB RAM
 - 100GB swap (use cloud instances with local disk, do not use network drives for swap)
 - Ports 40333, and 30333 should be open for both in- and out-bound traffic
-- Port 9844 should be open for in-bound traffic
+- Port 9844 should be open for in-bound traffic (for client dApps)
 
 ## Step 0 (temporary): Get access to unique-chain git repository
 
